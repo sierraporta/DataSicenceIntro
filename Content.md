@@ -1,4 +1,5 @@
 # Contents and Materials
 
+| Lesson | Content | Observation | Notes, Notebooks |
 | --- | --- | --- | --- |
-| N | Content | Lesson | Observation |
+| 1. Representanción de números, Errores | --- | --- | --- |
