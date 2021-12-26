@@ -1,4 +1,4 @@
 # Contents and Materials
 
-|---|---|---|---|
-|N|Content|Lesson|Observation|
+| --- | --- | --- | --- |
+| N | Content | Lesson | Observation |
