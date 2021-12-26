@@ -1,5 +1,5 @@
 # Very short introduction to Data Science.
-An compressive introduction to Data Science. Exploration of basis
+**An compressive introduction to Data Science. Exploration of basis**
 
 _David Sierra Porta (c) 2022_
 
