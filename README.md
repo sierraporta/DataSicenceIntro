@@ -1,4 +1,4 @@
-<img width="100%" src="Figures/E1haIGB9K4K89PsFZgm-pw.jpeg">
+<img width="100%" src="/Figures/E1haIGB9K4K89PsFZgm-pw.jpeg">
 
 # Very short introduction to Data Science.
 An compressive introduction to Data Science. Exploration of basis
