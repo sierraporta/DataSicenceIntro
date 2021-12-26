@@ -1,4 +1,4 @@
-[data-science](Figures/E1haIGB9K4K89PsFZgm-pw.jpeg)
+![data-science](Figures/E1haIGB9K4K89PsFZgm-pw.jpeg)
 
 # Very short introduction to Data Science.
 An compressive introduction to Data Science. Exploration of basis
