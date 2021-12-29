@@ -1,4 +1,4 @@
-# This is the first notebook...
+## This is the first notebook...
 
 
 ```python
@@ -26,6 +26,11 @@ plt.show()
 
 ![png](Python_tutorial_files/Python_tutorial_4_0.png)
 
+
+
+```python
+
+```
 
 
 ```python
