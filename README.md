@@ -10,7 +10,12 @@ This (little) book has been designed to introduce the basic elements of data sci
 
 In recent years, the worlds of industry, academia, and government have been calling for more capable and productive data science professionals, and the demand for data science professionals in the industry has been growing rapidly. This book presents concepts and skills that can help you meet the challenges of real-world data analysis. It covers concepts of probability, statistical inference, linear regression, and machine learning. It also helps you develop skills such as `Python` programming, data management with `Pandas`, data visualization with `Matplotlib`, `Pyplot`, `Seaborn`, `Bokeh`, etc, algorithm construction, file organization with `UNIX/Linux` shell, version control with `Git` and `GitHub`, and preparing reproducible documents with `Overleaf` and `Python markdown`. The book is divided into six parts: an introduction to Python, Data Visualization, Data Management, Statistics with Python, Machine Learning, and Productivity Tools. Each part has several chapters designed to be presented as a lecture and includes dozens of exercises distributed throughout the chapters.
 
-A table of contents with materials is available in [Contents](Content.md) section.
+## Contents and Materials
+A table of contents with materials is available following.
+
+| Lesson | Content | Observation | Notes, Notebooks |
+| --- | --- | --- | --- |
+| 1 | Python basics | Dic-2021 | [Python_tutorial](Notebooks/Python_tutorial.md) |
 
 ## Who will find this book useful?
 
