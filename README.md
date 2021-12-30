@@ -1,5 +1,5 @@
 # Very short introduction to Data Science.
-**An compressive introduction to Data Science. Exploration of basis.** _David Sierra Porta (c) 2022_
+**An compressive introduction to Data Science.** _David Sierra Porta (c) 2022_
 
 ![data-science](/Figures/01919-EP-banner.JPG)
 
@@ -20,5 +20,5 @@ A table of contents with materials is available following.
 
 | Lesson | Content | Updated | Notes, Notebooks |
 | --- | --- | --- | --- |
-| 1 | Python basics | Dic-2021 | [Python_tutorial](Notebooks/Python_Basics.md) |
+| 1 | Python basics | Dic-2021 | [Python_Basics](Notebooks/Python_Basics.md) |
 
