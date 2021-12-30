@@ -20,5 +20,5 @@ A table of contents with materials is available following.
 
 | Lesson | Content | Updated | Notes, Notebooks |
 | --- | --- | --- | --- |
-| 1 | Python basics | Dic-2021 | [Python_tutorial](Notebooks/Python_tutorial.md) |
+| 1 | Python basics | Dic-2021 | [Python_tutorial](Notebooks/Python_Basics.md) |
 
