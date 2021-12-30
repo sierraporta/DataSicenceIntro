@@ -95,86 +95,81 @@ print("Cheers, Beer!")
     Cheers, Beer!
 
 
+### Multi Line Comments
 
-```python
+Python does not really have a syntax for multi line comments.
 
-```
-
-
-```python
-
-```
+To add a multiline comment you could insert a # for each line:
 
 
 ```python
-
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
 ```
+
+    Hello, World!
+
+
+Or, not quite as intended, you can use a multiline string.
+
+Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
 
 
 ```python
-
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!") 
 ```
+
+    Hello, World!
+
+
+## Python Variables
+Variables are containers for storing data values.
+
+### Creating Variables
+Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
 
 
 ```python
-
+x = 562
+y = "David"
+print(x)
+print(y)
 ```
+
+    562
+    David
+
+
+Variables do not need to be declared with any particular type, and can even change type after they have been set.
 
 
 ```python
-
+x = 3467       # x is of type int
+x = "Sierra" # x is now of type str
+print(x)
 ```
+
+    Sierra
+
+
+If you want to specify the data type of a variable, this can be done with casting.
 
 
 ```python
-
+x = str(3465)    # x will be '3'
+y = int(8783)    # y will be 3
+z = float(3389)  # z will be 3.0 
+print("x =",x, "y =",y, "z =",z)
 ```
 
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
-
-```python
-x=np.arange(1,10,1)
-```
-
-
-```python
-y=np.random.randint(13,50,len(x))
-```
-
-
-```python
-plt.figure(figsize=(8,6))
-plt.plot(x,y,marker='o')
-plt.show()
-```
-
-
-![png](Python_Basics_files/Python_Basics_26_0.png)
+    x = 3465 y = 8783 z = 3389.0
 
 
 
