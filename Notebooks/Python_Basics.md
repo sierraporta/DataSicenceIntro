@@ -5,7 +5,7 @@ Jupyter Notebook is an open source web application that allows us to create and 
 
 ![jupyter](https://miro.medium.com/max/756/0*AqFDoe9TNQQLmrl1.png)
 
-Take a close look from their web page: https://jupyter.org/
+Take a close look from their web page: [https://jupyter.org/](https://jupyter.org/)
 
 Jupyter is the acronym for Julia, Python and R, the three programming languages Jupyter started with, although today it supports a large number of languages.
 It is widely used to create and share documents containing code. This is very useful in teaching, since we can show with examples how a script, a language works or ask students to propose and validate their own code.
@@ -18,7 +18,7 @@ Provides an environment where you can log code, execute code, view results, visu
 
 Jupyter Notebook is an interactive web-based computational environment for creating Jupyter notebook documents. It supports several languages such as Python (IPython), Julia, R, etc. and is mainly used for data analysis, data visualization and more interactive exploratory computing. JupyterLab is the next generation user interface including laptops. It has a modular structure, where you can open multiple notebooks or files (e.g. HTML, text, Markdowns, etc.) as tabs in the same window. It offers a more IDE-like experience. For a beginner, it is advisable to start with Jupyter Notebook, as it only consists of a file explorer and an editor (notebook) view. It might be easier to use. If you want more features, switch to JupyterLab. JupyterLab offers many more features and an improved interface, which can be extended through extensions.
 
-To install Jupyter Notebook, please keep forward the next link: https://docs.jupyter.org/en/latest/install/notebook-classic.html
+To install Jupyter Notebook, please keep forward the next link: [https://docs.jupyter.org/en/latest/install/notebook-classic.html](https://docs.jupyter.org/en/latest/install/notebook-classic.html)
 
 Once JupyterLab is installed in our computer we can make use of it and exploit all the possibilities to write code and visualize at the same time what we are doing. It is a good starting point. Usually what I do is that I start writing code in JupyterLab and then, if necessary, I convert this notebook into a Python executable for speed and versatility.
 
@@ -172,10 +172,19 @@ print("x =",x, "y =",y, "z =",z)
     x = 3465 y = 8783 z = 3389.0
 
 
+Or, you could directly print the variable trought the name without the command "print"
+
 
 ```python
-
+x
 ```
+
+
+
+
+    '3465'
+
+
 
 
 ```python
