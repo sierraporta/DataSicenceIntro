@@ -59,7 +59,7 @@ Python syntax can be executed by writing directly in the Command Line:
 print("Hello, World!")
 ```
 
-## Creating a Comment
+# Creating a Comment
 Comments starts with a #, and Python will ignore them: 
 
 
@@ -83,7 +83,10 @@ A comment does not have to be text that explains the code, it can also be used t
 print("Cheers, Beer!") 
 ```
 
-### Multi Line Comments
+    Cheers, Beer!
+
+
+## Multi Line Comments
 
 Python does not really have a syntax for multi line comments.
 
@@ -96,6 +99,9 @@ To add a multiline comment you could insert a # for each line:
 #more than just one line
 print("Hello, World!")
 ```
+
+    Hello, World!
+
 
 Or, not quite as intended, you can use a multiline string.
 
@@ -112,10 +118,10 @@ print("Hello, World!")
     Hello, World!
 
 
-## Python Variables
+# Python Variables
 Variables are containers for storing data values.
 
-### Creating Variables
+## Creating Variables
 Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
 
 
@@ -256,7 +262,7 @@ print(x + y)
     TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 
-## Built-in Data Types
+# Built-in Data Types
 
 In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:
 
@@ -287,14 +293,14 @@ for j in [x2, y2, z2, u2, v2, w2, t2]:
     Variable (2+4j) is type <class 'complex'>
     Variable Some thing is type <class 'str'>
     Variable ('one', 'two', 'three') is type <class 'tuple'>
-    Variable {'one', 'three', 'two'} is type <class 'set'>
+    Variable {'two', 'one', 'three'} is type <class 'set'>
     ---------------
     Variable True is type <class 'bool'>
     Variable False is type <class 'bool'>
     Variable {'name': 'David', 'age': 43} is type <class 'dict'>
     Variable {'David': 43} is type <class 'dict'>
     Variable bytearray(b'\x00\x00\x00\x00\x00') is type <class 'bytearray'>
-    Variable <memory at 0x7f509c627b80> is type <class 'memoryview'>
+    Variable <memory at 0x7f387294cb80> is type <class 'memoryview'>
     Variable 20 is type <class 'int'>
 
 
