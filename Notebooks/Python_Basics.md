@@ -119,9 +119,7 @@ Since Python will ignore string literals that are not assigned to a variable, yo
 
 ```python
 """
-This is a comment
-written in
-more than just one line
+This is a comment written in more than just one line
 """
 print("Hello, World!") 
 ```
@@ -186,7 +184,198 @@ x
 
 
 
+- Many Values to Multiple Variables: Python allows you to assign values to multiple variables in one line:
+    - Note: Make sure the number of variables matches the number of values, or else you will get an error.
+- One Value to Multiple Variables: And you can assign the same value to multiple variables in one line.
+- Unpack a Collection: If you have a collection of values in a list, tuple etc. Python allows you extract the values into variables. This is called unpacking.
+
 
 ```python
+# Example 1
+x1, y1, z1 = "Orange", "Banana", "Cherry"
+print("x1 =",x1)
+print("z1 =",y1)
+print("z1 =",z1)
+
+# Example 2
+x2 = y2 = z2 = "Orange"
+print("x2 =",x2)
+print("y2 =",y2)
+print("z2 =",z2)
+
+# Example 3
+fruits = ["apple", "banana", "cherry"]
+x3, y3, z3 = fruits
+print("x3 =",x3)
+print("y3 =",y3)
+print("z3 =",z3)
+```
+
+    x1 = Orange
+    z1 = Banana
+    z1 = Cherry
+    x2 = Orange
+    y2 = Orange
+    z2 = Orange
+    x3 = apple
+    y3 = banana
+    z3 = cherry
+
+
+- You can also use the + character to add a variable to another variable.
+- For numbers, the + character works as a mathematical operator.
+- If you try to combine a string and a number, Python will give you an error.
+
+
+```python
+#Example
+x = "Python is "
+y = "awesome"
+z =  x + y
+print(z)
+```
+
+    Python is awesome
+
+
+
+```python
+#Example
+x = 5
+y = 10
+print(x + y)
+```
+
+    15
+
+
+
+```python
+#Example
+x = 5
+y = "John"
+print(x + y)
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-14-6c53d93dc73b> in <module>
+          2 x = 5
+          3 y = "John"
+    ----> 4 print(x + y)
+    
+
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+## Built-in Data Types
+
+In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:
+- Text Type: |str
+- Numeric Types: |int, float, complex
+- Sequence Types: |list, tuple, range
+- Mapping Type: |dict
+- Set Types: |set, frozenset
+- Boolean Type: |bool
+- Binary Types: |bytes, bytearray, memoryview
+
+You can get the data type of any object by using the type() function:
+
+
+```python
+#Example
+x1, y1, z1, u1, v1, w1, t1 = 583783, 0.0776, 4j+2, "Some thing", ["one", "two", "three"], ("one", "two", "three"), {"one", "two", "three"}
+x2, y2, z2, u2, v2, w2, t2 = True, False, dict(name="David", age=43), {"David":43}, bytearray(5), memoryview(bytes(5)), int(20.5)
+for i in [x1, y1, z1, u1, w1, t1]:
+    print("Variable", i, "is type", type(i))
+print("---------------")
+for j in [x2, y2, z2, u2, v2, w2, t2]:
+    print("Variable", j, "is type", type(j))
+```
+
+## Boolean Values
+
+In programming you often need to know if an expression is True or False. You can evaluate any expression in Python, and get one of two answers, True or False. When you compare two values, the expression is evaluated and Python returns the Boolean answer.
+
+
+```python
+#Example
+print("10 > 9:", 10 > 9)
+print("10 == 9:", 10 == 9)
+print("10 < 9:", 10 < 9) 
+u, v, w, x = "one", "two", "three", "Three"
+print("one == two:", u == v) 
+print("three == three:", w == w) 
+print("three == Three:", w == x) 
+```
+
+# Python Arithmetic Operators
+- Arithmetic operators are used with numeric values to perform common mathematical operations:
+| Operator | Name | Example || Operator | Name | Example | 
+| --- | --- | --- || --- | --- | --- |
+| + | Addition | x + y || - | Subtraction | x - y |
+| * | Multiplication | x * y || / | Division | x / y |
+| ** | Exponentiation | x ** y || // | Floor division | x // y |
+| % | Modulus | x % y |
+
+- Python Assignment Operators. Assignment operators are used to assign values to variables:
+| Operator | Example | Same As || Operator | Example | Same As |
+| --- | --- | --- || --- | --- | --- |
+| = | x = 5 | x = 5 || += | x += 3 | x = x + 3 |
+| -= | x -= 3 | x = x - 3 || *= | x *= 3 | x = x * 3 |
+| /= | x /= 3 | x = x / 3 || %= | x %= 3 | x = x % 3 |
+| //= | x //= 3 | x = x // 3 || **= | x **= 3 | x = x ** 3 |
+| &= | x &= 3 | x = x & 3 || \|= | x \|= 3 | x = x \| 3 |
+| ^= | x ^= 3 | x = x ^ 3 || >>= | x >>= 3 | x = x >> 3 |
+| <<= | x <<= 3 | x = x << 3 |
+
+- Python Comparison Operators. Comparison operators are used to compare two values.
+| Operator | Name | Example |
+| --- | --- | --- |
+== |Equal |x == y |
+!= |Not equal |x != y |
+> |Greater than |x > y |
+< |Less than |x < y |
+>= |Greater than or equal to |x >= y |
+<= |Less than or equal to |x <= y |
+Python Logical Operators
+
+- Logical operators are used to combine conditional statements. 
+| Operator | Description | Example |
+| --- | --- | --- |
+and  |Returns True if both statements are true |x < 5 and  x < 10 |
+or |Returns True if one of the statements is true |x < 5 or x < 4 |
+not |Reverse the result, returns False if the result is true |not(x < 5 and x < 10) |
+Python Identity Operators
+
+- Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
+| Operator | Description | Example |
+| --- | --- | --- |
+is  |Returns True if both variables are the same object |x is y |
+is not |Returns True if both variables are not the same object |x is not y |
+Python Membership Operators
+
+- Membership operators are used to test if a sequence is presented in an object.
+| Operator | Description | Example |
+| --- | --- | --- |
+| in  |Returns True if a sequence with the specified value is present in the object |x in y |
+| not in |Returns True if a sequence with the specified value is not present in the object |x not in y |
+
+- Python Bitwise Operators. Bitwise operators are used to compare (binary) numbers.
+| Operator | Name | Description |
+| --- | --- | --- |
+| &  |AND |Sets each bit to 1 if both bits are 1
+| \| | OR |Sets each bit to 1 if one of two bits is 1
+| ^ |XOR |Sets each bit to 1 if only one of two bits is 1
+| ~  |NOT |Inverts all the bits
+| << |Zero fill left shift |Shift left by pushing zeros in from the right and let the leftmost bits fall off
+| >> |Signed right shift |Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+
+
+```python
+#Example
 
 ```
