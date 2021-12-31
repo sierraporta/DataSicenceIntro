@@ -83,9 +83,6 @@ A comment does not have to be text that explains the code, it can also be used t
 print("Cheers, Beer!") 
 ```
 
-    Cheers, Beer!
-
-
 ### Multi Line Comments
 
 Python does not really have a syntax for multi line comments.
@@ -99,9 +96,6 @@ To add a multiline comment you could insert a # for each line:
 #more than just one line
 print("Hello, World!")
 ```
-
-    Hello, World!
-
 
 Or, not quite as intended, you can use a multiline string.
 
@@ -293,14 +287,14 @@ for j in [x2, y2, z2, u2, v2, w2, t2]:
     Variable (2+4j) is type <class 'complex'>
     Variable Some thing is type <class 'str'>
     Variable ('one', 'two', 'three') is type <class 'tuple'>
-    Variable {'three', 'one', 'two'} is type <class 'set'>
+    Variable {'one', 'three', 'two'} is type <class 'set'>
     ---------------
     Variable True is type <class 'bool'>
     Variable False is type <class 'bool'>
     Variable {'name': 'David', 'age': 43} is type <class 'dict'>
     Variable {'David': 43} is type <class 'dict'>
     Variable bytearray(b'\x00\x00\x00\x00\x00') is type <class 'bytearray'>
-    Variable <memory at 0x7f5ac5173b80> is type <class 'memoryview'>
+    Variable <memory at 0x7f509c627b80> is type <class 'memoryview'>
     Variable 20 is type <class 'int'>
 
 
@@ -332,24 +326,24 @@ print("three == Three:", w == x)
 
 - Arithmetic operators are used with numeric values to perform common mathematical operations:
 
-| Operator | Name | Example || Operator | Name | Example | 
-| --- | --- | --- || --- | --- | --- |
-| + | Addition | x + y || - | Subtraction | x - y |
-| * | Multiplication | x * y || / | Division | x / y |
-| ** | Exponentiation | x ** y || // | Floor division | x // y |
-| % | Modulus | x % y |
+| Operator | Name | Example | Operator | Name | Example | 
+| --- | --- | --- | --- | --- | --- |
+| + | Addition | x + y | - | Subtraction | x - y |
+| * | Multiplication | x * y | / | Division | x / y |
+| ** | Exponentiation | x ** y | // | Floor division | x // y |
+| % | Modulus | x % y |  |  |  |
 
 - Python Assignment Operators. Assignment operators are used to assign values to variables:
 
-| Operator | Example | Same As || Operator | Example | Same As |
-| --- | --- | --- || --- | --- | --- |
-| = | x = 5 | x = 5 || += | x += 3 | x = x + 3 |
-| -= | x -= 3 | x = x - 3 || *= | x *= 3 | x = x * 3 |
-| /= | x /= 3 | x = x / 3 || %= | x %= 3 | x = x % 3 |
-| //= | x //= 3 | x = x // 3 || **= | x **= 3 | x = x ** 3 |
-| &= | x &= 3 | x = x & 3 || \|= | x \|= 3 | x = x \| 3 |
-| ^= | x ^= 3 | x = x ^ 3 || >>= | x >>= 3 | x = x >> 3 |
-| <<= | x <<= 3 | x = x << 3 |
+| Operator | Example | Same As | Operator | Example | Same As |
+| --- | --- | --- | --- | --- | --- |
+| = | x = 5 | x = 5 | += | x += 3 | x = x + 3 |
+| -= | x -= 3 | x = x - 3 | *= | x *= 3 | x = x * 3 |
+| /= | x /= 3 | x = x / 3 | %= | x %= 3 | x = x % 3 |
+| //= | x //= 3 | x = x // 3 | **= | x **= 3 | x = x ** 3 |
+| &= | x &= 3 | x = x & 3 | \|= | x \|= 3 | x = x \| 3 |
+| ^= | x ^= 3 | x = x ^ 3 | >>= | x >>= 3 | x = x >> 3 |
+| <<= | x <<= 3 | x = x << 3 |  |  |  |
 
 - Python Comparison Operators. Comparison operators are used to compare two values.
 
@@ -398,5 +392,15 @@ print("three == Three:", w == x)
 
 ```python
 #Example
+
+```
+
+
+```python
+
+```
+
+
+```python
 
 ```
