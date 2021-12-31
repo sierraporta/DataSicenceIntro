@@ -20,3 +20,5 @@ A table of contents with materials is available following.
 
 <h2>Lesson 1: Python basics.</h2> A few very basics tools and sintaxis using Python - [Python_Basics](Notebooks/Python_Basics.md)
 
+<h1>Skill Ratings <span>(scale of 5)</span></h1>
+
