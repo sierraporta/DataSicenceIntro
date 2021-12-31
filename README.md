@@ -15,7 +15,7 @@ This book is write in a self-content way, all material is in a GitHub repository
 ## What does this book cover?
 We start by going over the basics of Python and the Numpy and Pandas. You learn Python throughout the book, but in the first part we go over the building blocks needed to keep learning. The growing availability of informative datasets and software tools has led to increased reliance on data visualizations in many fields. In the second part we demonstrate how to use Matplotlib to generate graphs and describe important data visualization principles. In the third part we demonstrate the importance of statistics in data analysis by answering case study questions using probability, inference, and regression with Python. The fourth part uses several examples to familiarize the reader with data wrangling. Among the specific skills we learn are web scraping, using regular expressions, and joining and reshaping data tables. In the fifth part we present several challenges that lead us to introduce machine learning. We learn to use the caret package to build prediction algorithms including K-nearest neighbors and random forests. In the final part, we provide a brief introduction to the productivity tools we use on a day-to-day basis in data science projects. These are Jupyter Notebook, UNIX/Linux shell, Git and GitHub, Overleaf and Python Markdown.
 
-## Contents and Materials
+# Contents and Materials
 A table of contents with materials is available following.
 
 | Lesson | Content | Updated | Notes, Notebooks |
