@@ -59,9 +59,6 @@ Python syntax can be executed by writing directly in the Command Line:
 print("Hello, World!")
 ```
 
-    Hello, World!
-
-
 ## Creating a Comment
 Comments starts with a #, and Python will ignore them: 
 
@@ -71,18 +68,12 @@ Comments starts with a #, and Python will ignore them:
 print("Hello, World!")
 ```
 
-    Hello, World!
-
-
 Comments can be placed at the end of a line, and Python will ignore the rest of the line:
 
 
 ```python
 print("Hello, World!") #This is a comment
 ```
-
-    Hello, World!
-
 
 A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:
 
@@ -274,13 +265,14 @@ print(x + y)
 ## Built-in Data Types
 
 In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:
-- Text Type: |str
-- Numeric Types: |int, float, complex
-- Sequence Types: |list, tuple, range
-- Mapping Type: |dict
-- Set Types: |set, frozenset
-- Boolean Type: |bool
-- Binary Types: |bytes, bytearray, memoryview
+
+- Text Type: **str**
+- Numeric Types: **int, float, complex**
+- Sequence Types: **list, tuple, range**
+- Mapping Type: **dict**
+- Set Types: **set, frozenset**
+- Boolean Type: **bool**
+- Binary Types: **bytes, bytearray, memoryview**
 
 You can get the data type of any object by using the type() function:
 
@@ -301,14 +293,14 @@ for j in [x2, y2, z2, u2, v2, w2, t2]:
     Variable (2+4j) is type <class 'complex'>
     Variable Some thing is type <class 'str'>
     Variable ('one', 'two', 'three') is type <class 'tuple'>
-    Variable {'one', 'two', 'three'} is type <class 'set'>
+    Variable {'three', 'one', 'two'} is type <class 'set'>
     ---------------
     Variable True is type <class 'bool'>
     Variable False is type <class 'bool'>
     Variable {'name': 'David', 'age': 43} is type <class 'dict'>
     Variable {'David': 43} is type <class 'dict'>
     Variable bytearray(b'\x00\x00\x00\x00\x00') is type <class 'bytearray'>
-    Variable <memory at 0x7f64531d4b80> is type <class 'memoryview'>
+    Variable <memory at 0x7f5ac5173b80> is type <class 'memoryview'>
     Variable 20 is type <class 'int'>
 
 
