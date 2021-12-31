@@ -296,6 +296,22 @@ for j in [x2, y2, z2, u2, v2, w2, t2]:
     print("Variable", j, "is type", type(j))
 ```
 
+    Variable 583783 is type <class 'int'>
+    Variable 0.0776 is type <class 'float'>
+    Variable (2+4j) is type <class 'complex'>
+    Variable Some thing is type <class 'str'>
+    Variable ('one', 'two', 'three') is type <class 'tuple'>
+    Variable {'one', 'two', 'three'} is type <class 'set'>
+    ---------------
+    Variable True is type <class 'bool'>
+    Variable False is type <class 'bool'>
+    Variable {'name': 'David', 'age': 43} is type <class 'dict'>
+    Variable {'David': 43} is type <class 'dict'>
+    Variable bytearray(b'\x00\x00\x00\x00\x00') is type <class 'bytearray'>
+    Variable <memory at 0x7f5c540bdb80> is type <class 'memoryview'>
+    Variable 20 is type <class 'int'>
+
+
 ## Boolean Values
 
 In programming you often need to know if an expression is True or False. You can evaluate any expression in Python, and get one of two answers, True or False. When you compare two values, the expression is evaluated and Python returns the Boolean answer.
@@ -311,6 +327,14 @@ print("one == two:", u == v)
 print("three == three:", w == w) 
 print("three == Three:", w == x) 
 ```
+
+    10 > 9: True
+    10 == 9: False
+    10 < 9: False
+    one == two: False
+    three == three: True
+    three == Three: False
+
 
 # Python Arithmetic Operators
 - Arithmetic operators are used with numeric values to perform common mathematical operations:
@@ -335,47 +359,64 @@ print("three == Three:", w == x)
 - Python Comparison Operators. Comparison operators are used to compare two values.
 | Operator | Name | Example |
 | --- | --- | --- |
-== |Equal |x == y |
-!= |Not equal |x != y |
-> |Greater than |x > y |
-< |Less than |x < y |
->= |Greater than or equal to |x >= y |
-<= |Less than or equal to |x <= y |
-Python Logical Operators
+| == |Equal | x == y |
+| != |Not equal | x != y |
+| > |Greater than | x > y |
+| < |Less than | x < y |
+| >= |Greater than or equal to | x >= y |
+| <= |Less than or equal to | x <= y |
 
-- Logical operators are used to combine conditional statements. 
+- Python Logical Operators. Logical operators are used to combine conditional statements. 
 | Operator | Description | Example |
 | --- | --- | --- |
-and  |Returns True if both statements are true |x < 5 and  x < 10 |
-or |Returns True if one of the statements is true |x < 5 or x < 4 |
-not |Reverse the result, returns False if the result is true |not(x < 5 and x < 10) |
-Python Identity Operators
+| and  | Returns True if both statements are true | x < 5 and  x < 10 |
+| or | Returns True if one of the statements is true | x < 5 or x < 4 |
+| not | Reverse the result, returns False if the result is true | not(x < 5 and x < 10) |
 
-- Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
+- Python Identity Operators. Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
 | Operator | Description | Example |
 | --- | --- | --- |
-is  |Returns True if both variables are the same object |x is y |
-is not |Returns True if both variables are not the same object |x is not y |
-Python Membership Operators
+| is  | Returns True if both variables are the same object | x is y |
+| is not | Returns True if both variables are not the same object | x is not y |
 
-- Membership operators are used to test if a sequence is presented in an object.
+- Python Membership Operators. Membership operators are used to test if a sequence is presented in an object.
 | Operator | Description | Example |
 | --- | --- | --- |
-| in  |Returns True if a sequence with the specified value is present in the object |x in y |
-| not in |Returns True if a sequence with the specified value is not present in the object |x not in y |
+| in  | Returns True if a sequence with the specified value is present in the object | x in y |
+| not in | Returns True if a sequence with the specified value is not present in the object | x not in y |
 
 - Python Bitwise Operators. Bitwise operators are used to compare (binary) numbers.
 | Operator | Name | Description |
 | --- | --- | --- |
-| &  |AND |Sets each bit to 1 if both bits are 1
-| \| | OR |Sets each bit to 1 if one of two bits is 1
-| ^ |XOR |Sets each bit to 1 if only one of two bits is 1
-| ~  |NOT |Inverts all the bits
-| << |Zero fill left shift |Shift left by pushing zeros in from the right and let the leftmost bits fall off
-| >> |Signed right shift |Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+| &  | AND | Sets each bit to 1 if both bits are 1 |
+| \| | OR | Sets each bit to 1 if one of two bits is 1 |
+| ^ | XOR | Sets each bit to 1 if only one of two bits is 1 |
+| ~  | NOT | Inverts all the bits |
+| << | Zero fill left shift | Shift left by pushing zeros in from the right and let the leftmost bits fall off |
+| >> | Signed right shift | Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
 
 
 ```python
 #Example
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
 
 ```
