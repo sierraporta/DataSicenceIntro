@@ -308,7 +308,7 @@ for j in [x2, y2, z2, u2, v2, w2, t2]:
     Variable {'name': 'David', 'age': 43} is type <class 'dict'>
     Variable {'David': 43} is type <class 'dict'>
     Variable bytearray(b'\x00\x00\x00\x00\x00') is type <class 'bytearray'>
-    Variable <memory at 0x7f5c540bdb80> is type <class 'memoryview'>
+    Variable <memory at 0x7f64531d4b80> is type <class 'memoryview'>
     Variable 20 is type <class 'int'>
 
 
@@ -337,7 +337,9 @@ print("three == Three:", w == x)
 
 
 # Python Arithmetic Operators
+
 - Arithmetic operators are used with numeric values to perform common mathematical operations:
+
 | Operator | Name | Example || Operator | Name | Example | 
 | --- | --- | --- || --- | --- | --- |
 | + | Addition | x + y || - | Subtraction | x - y |
@@ -346,6 +348,7 @@ print("three == Three:", w == x)
 | % | Modulus | x % y |
 
 - Python Assignment Operators. Assignment operators are used to assign values to variables:
+
 | Operator | Example | Same As || Operator | Example | Same As |
 | --- | --- | --- || --- | --- | --- |
 | = | x = 5 | x = 5 || += | x += 3 | x = x + 3 |
@@ -357,6 +360,7 @@ print("three == Three:", w == x)
 | <<= | x <<= 3 | x = x << 3 |
 
 - Python Comparison Operators. Comparison operators are used to compare two values.
+
 | Operator | Name | Example |
 | --- | --- | --- |
 | == |Equal | x == y |
@@ -367,6 +371,7 @@ print("three == Three:", w == x)
 | <= |Less than or equal to | x <= y |
 
 - Python Logical Operators. Logical operators are used to combine conditional statements. 
+
 | Operator | Description | Example |
 | --- | --- | --- |
 | and  | Returns True if both statements are true | x < 5 and  x < 10 |
@@ -374,18 +379,21 @@ print("three == Three:", w == x)
 | not | Reverse the result, returns False if the result is true | not(x < 5 and x < 10) |
 
 - Python Identity Operators. Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
+
 | Operator | Description | Example |
 | --- | --- | --- |
 | is  | Returns True if both variables are the same object | x is y |
 | is not | Returns True if both variables are not the same object | x is not y |
 
 - Python Membership Operators. Membership operators are used to test if a sequence is presented in an object.
+
 | Operator | Description | Example |
 | --- | --- | --- |
 | in  | Returns True if a sequence with the specified value is present in the object | x in y |
 | not in | Returns True if a sequence with the specified value is not present in the object | x not in y |
 
 - Python Bitwise Operators. Bitwise operators are used to compare (binary) numbers.
+
 | Operator | Name | Description |
 | --- | --- | --- |
 | &  | AND | Sets each bit to 1 if both bits are 1 |
@@ -398,25 +406,5 @@ print("three == Three:", w == x)
 
 ```python
 #Example
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
 
 ```
