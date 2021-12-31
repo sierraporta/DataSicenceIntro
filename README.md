@@ -18,7 +18,6 @@ We start by going over the basics of Python and the Numpy and Pandas. You learn 
 # Contents and Materials
 A table of contents with materials is available following.
 
-| Lesson | Content | Updated | Notes, Notebooks |
-| --- | --- | --- | --- |
-| 1 | ## Python basics | Dic-2021 | [Python_Basics](Notebooks/Python_Basics.md) |
+## Lesson 1: Python basics:  
+A few very basics tools and sintaxis using Python - [Python_Basics](Notebooks/Python_Basics.md)
 
